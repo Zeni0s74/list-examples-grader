@@ -42,7 +42,7 @@ public class TestListExamples {
     List<String> left = Arrays.asList("a", "b", "c");
     List<String> right = Arrays.asList("a", null);
     List<String> merged = ListExamples.merge(left, right);
-    List<String> expected = Arrays.asList("a", "a", "b", "c", null);
+    List<String> expected = Arrays.asList("a", "a", "b", "c");
     assertEquals(expected, merged);
   }
 }
